@@ -1,0 +1,35 @@
+# Dracula semantic palette for Omarchy v4.
+mode = "dark"
+
+accent = "#8be9fd"
+selection = "#44475a"
+muted = "#6272a4"
+
+background = "#282a36"
+dark_background = "#21222c"
+darker_background = "#191a24"
+lighter_background = "#343746"
+
+foreground = "#f8f8f2"
+dark_foreground = "#6272a4"
+light_foreground = "#f8f8f2"
+bright_foreground = "#ffffff"
+
+red = "#ff5555"
+yellow = "#f1fa8c"
+orange = "#ffb86c"
+green = "#50fa7b"
+cyan = "#8be9fd"
+blue = "#bd93f9"
+magenta = "#ff79c6"
+brown = "#a88984"
+
+bright_red = "#ff6e6e"
+bright_yellow = "#ffffa5"
+bright_green = "#69ff94"
+bright_cyan = "#a4ffff"
+bright_blue = "#d6acff"
+bright_magenta = "#ff92df"
+
+hyprland_active_border = "cyan blue 45deg"
+hyprland_inactive_border = "rgba(68,71,90,0.8)"

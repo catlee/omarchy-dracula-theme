@@ -1,0 +1,48 @@
+/* Dracula browser chrome. Enable toolkit.legacyUserProfileCustomizations.stylesheets. */
+:root {
+  --dracula-bg: #282a36;
+  --dracula-deep: #191a24;
+  --dracula-surface: #343746;
+  --dracula-raised: #44475a;
+  --dracula-fg: #f8f8f2;
+  --dracula-muted: #6272a4;
+  --dracula-cyan: #8be9fd;
+  --dracula-purple: #bd93f9;
+}
+
+#navigator-toolbox,
+#TabsToolbar,
+#nav-bar,
+#PersonalToolbar {
+  background-color: var(--dracula-bg) !important;
+  color: var(--dracula-fg) !important;
+  border-color: var(--dracula-raised) !important;
+}
+
+tab.tabbrowser-tab[selected="true"] .tab-background {
+  background-color: var(--dracula-raised) !important;
+  border-top: 2px solid var(--dracula-cyan) !important;
+}
+
+tab.tabbrowser-tab:not([selected="true"]):hover .tab-background {
+  background-color: var(--dracula-surface) !important;
+}
+
+#urlbar,
+#searchbar,
+.searchbar-textbox {
+  background-color: var(--dracula-deep) !important;
+  color: var(--dracula-fg) !important;
+  border-color: var(--dracula-raised) !important;
+}
+
+#urlbar[focused="true"] {
+  border-color: var(--dracula-cyan) !important;
+  box-shadow: 0 0 0 1px var(--dracula-purple) !important;
+}
+
+toolbarbutton:hover,
+toolbarbutton[open="true"] {
+  background-color: var(--dracula-surface) !important;
+  color: var(--dracula-cyan) !important;
+}

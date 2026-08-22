@@ -7,6 +7,9 @@
 # Instructions
 # https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
 
+[window]
+opacity = 0.92
+
 [colors.primary]
 
 background = "#282a36"

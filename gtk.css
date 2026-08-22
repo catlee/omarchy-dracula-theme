@@ -1,0 +1,53 @@
+/* Dracula GTK3/GTK4 surface hierarchy. */
+@define-color background #282a36;
+@define-color surface #343746;
+@define-color raised_surface #44475a;
+@define-color selection #44475a;
+@define-color foreground #f8f8f2;
+@define-color muted #6272a4;
+@define-color focus #8be9fd;
+@define-color red #ff5555;
+@define-color orange #ffb86c;
+@define-color yellow #f1fa8c;
+@define-color green #50fa7b;
+@define-color blue #bd93f9;
+@define-color magenta #ff79c6;
+
+@define-color accent_bg_color @focus;
+@define-color accent_fg_color @background;
+@define-color accent_color @focus;
+@define-color window_bg_color @background;
+@define-color window_fg_color @foreground;
+@define-color view_bg_color @background;
+@define-color view_fg_color @foreground;
+@define-color sidebar_bg_color @surface;
+@define-color sidebar_fg_color @foreground;
+@define-color headerbar_bg_color @surface;
+@define-color headerbar_fg_color @foreground;
+@define-color card_bg_color @raised_surface;
+@define-color card_fg_color @foreground;
+@define-color popover_bg_color @raised_surface;
+@define-color popover_fg_color @foreground;
+@define-color dialog_bg_color @surface;
+@define-color dialog_fg_color @foreground;
+@define-color borders alpha(@foreground, 0.12);
+@define-color destructive_bg_color @red;
+@define-color destructive_fg_color @background;
+@define-color success_bg_color @green;
+@define-color success_fg_color @background;
+@define-color warning_bg_color @yellow;
+@define-color warning_fg_color @background;
+@define-color error_bg_color @red;
+@define-color error_fg_color @background;
+
+@define-color theme_fg_color @foreground;
+@define-color theme_text_color @foreground;
+@define-color theme_bg_color @background;
+@define-color theme_base_color #191a24;
+@define-color theme_selected_bg_color @focus;
+@define-color theme_selected_fg_color @background;
+@define-color insensitive_fg_color @muted;
+
+* {
+  border-radius: 0;
+}

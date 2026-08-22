@@ -8,10 +8,10 @@ theme[main_fg]="#f8f8f2"
 theme[title]="#f8f8f2"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#6272a4"
+theme[hi_fg]="#8be9fd"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#ff79c6"
+theme[selected_bg]="#44475a"
 
 # Foreground color of selected item in processes box
 theme[selected_fg]="#f8f8f2"
@@ -35,18 +35,18 @@ theme[cpu_box]="#bd93f9"
 theme[mem_box]="#50fa7b"
 
 # Net up/down box outline color
-theme[net_box]="#ff5555"
+theme[net_box]="#bd93f9"
 
 # Processes box outline color
-theme[proc_box]="#8be9fd"
+theme[proc_box]="#ff79c6"
 
 # Box divider line and small boxes line color
 theme[div_line]="#44475a"
 
 # Temperature graph colors
-theme[temp_start]="#bd93f9"
-theme[temp_mid]="#ff79c6"
-theme[temp_end]="#ff33a8"
+theme[temp_start]="#8be9fd"
+theme[temp_mid]="#ffb86c"
+theme[temp_end]="#ff5555"
 
 # CPU graph colors
 theme[cpu_start]="#bd93f9"
@@ -54,19 +54,19 @@ theme[cpu_mid]="#8be9fd"
 theme[cpu_end]="#50fa7b"
 
 # Mem/Disk free meter
-theme[free_start]="#ffa6d9"
-theme[free_mid]="#ff79c6"
-theme[free_end]="#ff33a8"
+theme[free_start]="#6272a4"
+theme[free_mid]="#50fa7b"
+theme[free_end]="#69ff94"
 
 # Mem/Disk cached meter
-theme[cached_start]="#b1f0fd"
+theme[cached_start]="#6272a4"
 theme[cached_mid]="#8be9fd"
-theme[cached_end]="#26d7fd"
+theme[cached_end]="#a4ffff"
 
 # Mem/Disk available meter
-theme[available_start]="#ffd4a6"
+theme[available_start]="#bd93f9"
 theme[available_mid]="#ffb86c"
-theme[available_end]="#ff9c33"
+theme[available_end]="#f1fa8c"
 
 # Mem/Disk used meter
 theme[used_start]="#96faaf"
@@ -79,9 +79,9 @@ theme[download_mid]="#50fa7b"
 theme[download_end]="#8be9fd"
 
 # Upload graph colors
-theme[upload_start]="#8c42ab"
+theme[upload_start]="#bd93f9"
 theme[upload_mid]="#ff79c6"
-theme[upload_end]="#ff33a8"
+theme[upload_end]="#ff92df"
 
 # Process box color gradient for threads, mem and cpu usage
 theme[process_start]="#50fa7b"

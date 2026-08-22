@@ -1,0 +1,108 @@
+themes {
+    dracula {
+        text_unselected {
+            base 248 248 242
+            background 33 34 44
+            emphasis_0 255 85 85
+            emphasis_1 255 184 108
+            emphasis_2 80 250 123
+            emphasis_3 139 233 253
+        }
+        text_selected {
+            base 255 255 255
+            background 68 71 90
+            emphasis_0 255 110 110
+            emphasis_1 255 184 108
+            emphasis_2 189 147 249
+            emphasis_3 139 233 253
+        }
+        ribbon_selected {
+            base 40 42 54
+            background 139 233 253
+            emphasis_0 255 85 85
+            emphasis_1 255 184 108
+            emphasis_2 80 250 123
+            emphasis_3 189 147 249
+        }
+        ribbon_unselected {
+            base 40 42 54
+            background 248 248 242
+            emphasis_0 255 85 85
+            emphasis_1 255 121 198
+            emphasis_2 189 147 249
+            emphasis_3 139 233 253
+        }
+        table_title {
+            base 139 233 253
+            background 40 42 54
+            emphasis_0 255 85 85
+            emphasis_1 255 184 108
+            emphasis_2 80 250 123
+            emphasis_3 248 248 242
+        }
+        table_cell_selected {
+            base 248 248 242
+            background 68 71 90
+            emphasis_0 255 85 85
+            emphasis_1 255 184 108
+            emphasis_2 80 250 123
+            emphasis_3 139 233 253
+        }
+        table_cell_unselected {
+            base 248 248 242
+            background 33 34 44
+            emphasis_0 255 85 85
+            emphasis_1 255 184 108
+            emphasis_2 80 250 123
+            emphasis_3 189 147 249
+        }
+        list_selected {
+            base 248 248 242
+            background 68 71 90
+            emphasis_0 255 85 85
+            emphasis_1 255 184 108
+            emphasis_2 80 250 123
+            emphasis_3 139 233 253
+        }
+        list_unselected {
+            base 248 248 242
+            background 33 34 44
+            emphasis_0 255 85 85
+            emphasis_1 255 184 108
+            emphasis_2 80 250 123
+            emphasis_3 189 147 249
+        }
+        frame_selected {
+            base 139 233 253
+            background 40 42 54
+            emphasis_0 248 248 242
+            emphasis_1 189 147 249
+            emphasis_2 255 121 198
+            emphasis_3 40 42 54
+        }
+        frame_highlight {
+            base 255 255 255
+            background 40 42 54
+            emphasis_0 255 184 108
+            emphasis_1 255 85 85
+            emphasis_2 139 233 253
+            emphasis_3 255 255 255
+        }
+        exit_code_success {
+            base 80 250 123
+            background 40 42 54
+            emphasis_0 139 233 253
+            emphasis_1 68 71 90
+            emphasis_2 189 147 249
+            emphasis_3 248 248 242
+        }
+        exit_code_error {
+            base 255 85 85
+            background 40 42 54
+            emphasis_0 255 184 108
+            emphasis_1 40 42 54
+            emphasis_2 40 42 54
+            emphasis_3 40 42 54
+        }
+    }
+}
