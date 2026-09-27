@@ -1,0 +1,6 @@
+#!/bin/bash
+
+[[ ${1:-} == dracula ]] || exit 0
+[[ $(omarchy plymouth current) == dracula ]] && exit 0
+
+omarchy launch floating terminal with presentation "omarchy plymouth set by theme dracula"
